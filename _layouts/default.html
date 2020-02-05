@@ -1,13 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>一只迷羊和他的天地</title>
-    <link rel="icon" type="image/png" href="/assets/images/logo.png">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-    {% include navigation.html %}
-    {{ content }}
-  </body>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<div class="main">
+    <div class="container">
+        {{ content }}
+    </div>
+    <div class="page-scrollTop" data-toggle="tooltip" data-placement="top" title="Top">
+        <a href="javascript:void(0);">
+            <div class="arrow"></div>
+            <div class="stick"></div>
+        </a>
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
 </html>
