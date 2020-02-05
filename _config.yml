@@ -37,8 +37,8 @@ gitment:
     client_id: 21982ac0cd4ca1b1ed79
     client_secret: 7176b428080f10d7c19de24bf401a7b65658a191
 
-url: "https://github.com/unbeatablekb/myblog"
-imgrepo: "https://github.com/unbeatablekb/myblog/static/img"
+url: "https://kbwow.cn"
+imgrepo: "https://kbwow.cn/static/img"
 
 
 #url: "http://127.0.0.1:4000"
